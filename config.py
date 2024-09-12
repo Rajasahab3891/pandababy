@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_USERNAME = getenv("BOT_USERNAME" , "Groovy_music_bot")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Groovymusic")
+BOT_NAME = getenv("BOT_NAME" , "Ganaxmusic")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KettyPai")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BeatsSyncNet")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PandaLovebaby")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PandaLovebaby")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,10 +84,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/PcR.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c3e75a195cdda1380a176.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/P_d.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/c3e75a195cdda1380a176.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/fed5823f6d0b08237ae20.jpg"
 STATS_IMG_URL = "https://envs.sh/P_2.jpg"
